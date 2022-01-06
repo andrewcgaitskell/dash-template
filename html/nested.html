@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML div</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div w3-include-html="libraries.html"></div> 
+</head>
+<body>
+
+<!--
+<div style="width: 100px; float:left; height:100px; background:gray; margin:10px">
+First DIV
+</div>
+
+<div style="width: 100px; float:left; height:100px; background:yellow; margin:10px">
+Second DIV
+</div>
+
+
+<div class="parent-container d-flex">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Container Left
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Container Right
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+<div class="container" style="display: flex; height: 100px;">
+    <div style="width: 20%; background: green;">
+        Left Div
+    </div>
+    <div style="flex-grow: 1; background: blue;">
+        Right Div
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        Level 1: .col-sm-3
+      </div>
+      <div class="col-sm-9">
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            Level 2: .col-8 .col-sm-6
+          </div>
+          <div class="col-4 col-sm-6">
+            Level 2: .col-4 .col-sm-6
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
