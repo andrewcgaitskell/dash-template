@@ -13,3 +13,11 @@ Memory
 
   8 Gb
   
+# Created VM
+
+# VM Setup
+
+    sudo apt update
+    sudo apt upgrade
+    sudo apt install nodejs
+    sudo apt install python3-pip
