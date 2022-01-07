@@ -20,6 +20,7 @@ Memory
     sudo apt update
     sudo apt upgrade
     sudo apt install nodejs
+    sudo apt install npm
     sudo apt install python3-pip
     git clone https://github.com/andrewcgaitskell/dash-template.git
     cd dash-template
@@ -28,9 +29,27 @@ Memory
     echo $PATH
     sudo apt install software-properties-common
     
-# installed python version
+## installed python version
 
     python --version
-    edit pipfile and add python version
     
+    ### edit pipfile and add python version
+    nano Pipfile
+    
+## install python packages
+
+    pipenv --python 3.9.5 install pandas
+    
+## Jupyterlab Setting Up
+
+    sudo npm install -g npm@8.3.0 to update
+    ?? sudo npm install -g configurable-http-proxy
+    sudo npm init
+  
+    npm install configurable-http-proxy
+
+  
+    pipenv install -r my_requirements_jupyterlab.txt
+  
+  
     
