@@ -52,4 +52,12 @@ Memory
     pipenv install -r my_requirements_jupyterlab.txt
   
   
+# install mysql
+
+    sudo apt update
+    sudo apt install mysql-server
+    sudo mysql_secure_installation utility
+    
+    root/pythonuser
+    
     
