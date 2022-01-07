@@ -21,3 +21,16 @@ Memory
     sudo apt upgrade
     sudo apt install nodejs
     sudo apt install python3-pip
+    git clone https://github.com/andrewcgaitskell/dash-template.git
+    cd dash-template
+    pip install --user pipenv
+    export PATH=$PATH:/home/andrew_gaitskell/.local/bin
+    echo $PATH
+    sudo apt install software-properties-common
+    
+# installed python version
+
+    python --version
+    edit pipfile and add python version
+    
+    
