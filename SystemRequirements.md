@@ -58,6 +58,8 @@ Memory
     sudo apt install mysql-server
     sudo mysql_secure_installation utility
     
-    root/pythonuser
+    ## root/pythonuser
     
+    sudo /usr/bin/mysql -u root -p
+
     
