@@ -1218,7 +1218,7 @@
 #      `Authenticator.whitelist` renamed to `allowed_users`
 #  Default: set()
 #c.Authenticator.allowed_users = set('pythonuser')
-c.Authenticator.allowed_users = {'pythonuser'}
+c.Authenticator.allowed_users = {'dogbreath'}
 
 c.PAMAuthenticator.open_sessions = False
 
