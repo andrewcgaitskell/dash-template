@@ -1217,7 +1217,8 @@
 #  .. versionchanged:: 1.2
 #      `Authenticator.whitelist` renamed to `allowed_users`
 #  Default: set()
-c.Authenticator.allowed_users = set('pythonuser')
+#c.Authenticator.allowed_users = set('pythonuser')
+c.Authenticator.allowed_users = {'pythonuser'}
 
 c.PAMAuthenticator.open_sessions = False
 
@@ -1287,7 +1288,7 @@ c.PAMAuthenticator.open_sessions = False
 #          and a warning will be issued.
 #          This is the default to avoid data loss due to config changes.
 #  Default: False
-# c.Authenticator.delete_invalid_users = False
+c.Authenticator.delete_invalid_users = False
 
 ## Enable persisting auth_state (if available).
 #  
