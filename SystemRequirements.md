@@ -116,8 +116,10 @@ Memory
     sudo nano /etc/nginx/sites-enabled/default
 
 # Create pythonuser user
-
- sudo adduser pythonuser
+ 
+ sudo useradd -m pythonuser
+ 
+ sudo passwd pythonuser
  
  # Remove pythonuser user
  
