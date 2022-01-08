@@ -115,5 +115,15 @@ Memory
 
     sudo nano /etc/nginx/sites-enabled/default
 
+# Create pythonuser user
 
+ sudo adduser pythonuser
+ 
+ # Remove pythonuser user
+ 
+ sudo userdel pythonuser
+
+# Create Jupyterhub Config
+
+jupyterhub --generate-config
 
