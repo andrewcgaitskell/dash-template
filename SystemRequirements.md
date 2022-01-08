@@ -67,4 +67,9 @@ Memory
     sudo apt update
     sudo apt install nginx
     
+# add sub domain
+
+    https://uk.godaddy.com/help/add-a-subdomain-4080
+    
+
     
