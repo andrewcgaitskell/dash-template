@@ -1,0 +1,14 @@
+[Unit]
+Description=Some description
+After=network.target
+
+[Service]
+Type=simple
+User=user
+WorkingDirectory=/home/user/somedir
+Environment=PYTHONPATH=/home/user/somedir
+ExecStart=/home/user/venv/bin/python script.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
