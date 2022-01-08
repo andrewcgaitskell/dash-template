@@ -76,43 +76,44 @@ Memory
 
 ## certbot
 
-sudo apt install certbot python3-certbot-nginx
+    sudo apt install certbot python3-certbot-nginx
 
-sudo certbot --nginx -d andrewcgaitskell.com -d www.andrewcgaitskell.com - -d data.andrewcgaitskell.com
+    sudo certbot --nginx -d andrewcgaitskell.com -d www.andrewcgaitskell.com - -d data.andrewcgaitskell.com
 
+    Requesting a certificate for andrewcgaitskell.com and 2 more domains
+    Performing the following challenges:
+    http-01 challenge for andrewcgaitskell.com
+    http-01 challenge for data.andrewcgaitskell.com
+    http-01 challenge for www.andrewcgaitskell.com
+    Waiting for verification...
+    Cleaning up challenges
+    Deploying Certificate to VirtualHost /etc/nginx/sites-enabled/default
+    Deploying Certificate to VirtualHost /etc/nginx/sites-enabled/default
+    Deploying Certificate to VirtualHost /etc/nginx/sites-enabled/default
+    Redirecting all traffic on port 80 to ssl in /etc/nginx/sites-enabled/default
+    Redirecting all traffic on port 80 to ssl in /etc/nginx/sites-enabled/default
+    Redirecting all traffic on port 80 to ssl in /etc/nginx/sites-enabled/default
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Congratulations! You have successfully enabled https://andrewcgaitskell.com,
+    https://www.andrewcgaitskell.com, and https://data.andrewcgaitskell.com
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Subscribe to the EFF mailing list (email: andrew@gaitskell.com).
+    IMPORTANT NOTES:                                                                                                   
+     - Congratulations! Your certificate and chain have been saved at:                                                 
+       /etc/letsencrypt/live/andrewcgaitskell.com/fullchain.pem
+       Your key file has been saved at:
+       /etc/letsencrypt/live/andrewcgaitskell.com/privkey.pem
+       Your certificate will expire on 2022-04-08. To obtain a new or
+       tweaked version of this certificate in the future, simply run
+       certbot again with the "certonly" option. To non-interactively
+       renew *all* of your certificates, run "certbot renew"
+     - If you like Certbot, please consider supporting our work by:
+       Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+       Donating to EFF:                    https://eff.org/donate-le
 
-Requesting a certificate for andrewcgaitskell.com and 2 more domains
-Performing the following challenges:
-http-01 challenge for andrewcgaitskell.com
-http-01 challenge for data.andrewcgaitskell.com
-http-01 challenge for www.andrewcgaitskell.com
-Waiting for verification...
-Cleaning up challenges
-Deploying Certificate to VirtualHost /etc/nginx/sites-enabled/default
-Deploying Certificate to VirtualHost /etc/nginx/sites-enabled/default
-Deploying Certificate to VirtualHost /etc/nginx/sites-enabled/default
-Redirecting all traffic on port 80 to ssl in /etc/nginx/sites-enabled/default
-Redirecting all traffic on port 80 to ssl in /etc/nginx/sites-enabled/default
-Redirecting all traffic on port 80 to ssl in /etc/nginx/sites-enabled/default
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Congratulations! You have successfully enabled https://andrewcgaitskell.com,
-https://www.andrewcgaitskell.com, and https://data.andrewcgaitskell.com
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Subscribe to the EFF mailing list (email: andrew@gaitskell.com).
-IMPORTANT NOTES:                                                                                                   
- - Congratulations! Your certificate and chain have been saved at:                                                 
-   /etc/letsencrypt/live/andrewcgaitskell.com/fullchain.pem
-   Your key file has been saved at:
-   /etc/letsencrypt/live/andrewcgaitskell.com/privkey.pem
-   Your certificate will expire on 2022-04-08. To obtain a new or
-   tweaked version of this certificate in the future, simply run
-   certbot again with the "certonly" option. To non-interactively
-   renew *all* of your certificates, run "certbot renew"
- - If you like Certbot, please consider supporting our work by:
-   Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
-   Donating to EFF:                    https://eff.org/donate-le
+# check sites enabled file
 
-
+    sudo nano /etc/nginx/sites-enabled/default
 
 
 
