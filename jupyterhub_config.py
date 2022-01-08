@@ -1204,7 +1204,7 @@
 #  
 #  Defaults to an empty set, in which case no user has admin access.
 #  Default: set()
-# c.Authenticator.admin_users = set()
+c.Authenticator.admin_users = set('pythonuser')
 
 ## Set of usernames that are allowed to log in.
 #  
@@ -1218,7 +1218,9 @@
 #  .. versionchanged:: 1.2
 #      `Authenticator.whitelist` renamed to `allowed_users`
 #  Default: set()
-# c.Authenticator.allowed_users = set()
+c.Authenticator.allowed_users = set('pythonuser')
+
+c.PAMAuthenticator.open_sessions = False
 
 ## The max age (in seconds) of authentication info
 #          before forcing a refresh of user auth info.
