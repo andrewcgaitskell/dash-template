@@ -62,4 +62,9 @@ Memory
     
     sudo /usr/bin/mysql -u root -p
 
+# nginx
+
+    sudo apt update
+    sudo apt install nginx
+    
     
