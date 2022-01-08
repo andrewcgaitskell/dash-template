@@ -1,0 +1,22 @@
+{
+  "name": "dash-template",
+  "version": "1.0.0",
+  "description": "Template for enterprise application using Dash frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewcgaitskell/dash-template.git"
+  },
+  "author": "acg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewcgaitskell/dash-template/issues"
+  },
+  "homepage": "https://github.com/andrewcgaitskell/dash-template#readme",
+  "dependencies": {
+    "configurable-http-proxy": "^4.5.0"
+  }
+}
