@@ -1,0 +1,13 @@
+[Unit]
+Description=My Python Service
+After=network.target
+
+[Service]
+User=user
+Restart=always
+Type=simple
+WorkingDirectory=/path/to
+ExecStart=/usr/local/bin/pipenv run python3 /path/to/src/foo.py
+
+[Install]
+WantedBy=multi-user.target
