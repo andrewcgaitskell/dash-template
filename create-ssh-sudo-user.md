@@ -39,7 +39,7 @@ Then follow the instruction to finish the procedure
 
 # Add the user to the sudo group
 
-$ usermod -aG sudo newuser
+$ sudo usermod -aG sudo newuser
 
 On Ubuntu, members of the sudo group have sudo privileges by default.
 
@@ -54,6 +54,18 @@ $ su - newuser
 $ sudo ls -la /root
 
 # Add public key to allow remote SSH login for the new user
+
+## create the public key
+
+create gateway vm
+
+update and upgrade
+
+username = acg34
+
+ssh-keygen -t rsa -f ~/.ssh/acg34sshkey -C acg34 -b 2048
+
+
 1. Switch to the new user account
 
 $ su - newuser
