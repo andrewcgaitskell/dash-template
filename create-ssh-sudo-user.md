@@ -20,29 +20,30 @@ $ sudo adduser newuser
 
 Then follow the instruction to finish the procedure
 
-Adding user `newuser' ...
-Adding new group `newuser' (1005) ...
-Adding new user `newuser' (1004) with group `newuser' ...
-Creating home directory `/home/newuser' ...
-Copying files from `/etc/skel' ...
-Enter new UNIX password: 
-Retype new UNIX password: 
-passwd: password updated successfully
-Changing the user information for newuser
-Enter the new value, or press ENTER for the default
- Full Name []: Thuc Nguyen                
- Room Number []: 1234
- Work Phone []: 0123456789
- Home Phone []: 0987654321
- Other []: 
-Is the information correct? [Y/n] Ysudo
+   Adding user `newuser' ...
+   Adding new group `newuser' (1005) ...
+   Adding new user `newuser' (1004) with group `newuser' ...
+   Creating home directory `/home/newuser' ...
+   Copying files from `/etc/skel' ...
+   Enter new UNIX password: 
+   Retype new UNIX password: 
+   passwd: password updated successfully
+   Changing the user information for newuser
+   Enter the new value, or press ENTER for the default
+    Full Name []: Thuc Nguyen                
+    Room Number []: 1234
+    Work Phone []: 0123456789
+    Home Phone []: 0987654321
+    Other []: 
+   Is the information correct? [Y/n] Ysudo
 
 # Add the user to the sudo group
 
 $ usermod -aG sudo newuser
 
 On Ubuntu, members of the sudo group have sudo privileges by default.
-4. Test
+
+# Test
 
     Switch to the new user account
 
@@ -56,6 +57,7 @@ $ sudo ls -la /root
 1. Switch to the new user account
 
 $ su - newuser
+
 # Create .ssh folder in home directory
 
 $ mkdir ~/.ssh
