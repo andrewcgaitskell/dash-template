@@ -92,4 +92,6 @@ This should work if you have your SSH private key in ~/.ssh/id_rsa file, otherwi
 
 $ ssh -i path_to_your_ssh_private_key newuser@server_address
 
+$ ssh -i ~/.ssh/acg34sshkey acg34@andrewcgaitskell.com
+
 # If you can login successfully, congratulations!
