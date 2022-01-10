@@ -1199,6 +1199,9 @@
 #   - Restart / halt the hub
 #   - Start / stop users' single-user servers
 #   - Can access each individual users' single-user server (if configured)
+
+c.Authenticator.admin_users = {'acg34'}
+
 #  
 #  Admin access should be treated the same way root access is.
 #  
@@ -1218,7 +1221,7 @@
 #      `Authenticator.whitelist` renamed to `allowed_users`
 #  Default: set()
 #c.Authenticator.allowed_users = set('pythonuser')
-c.Authenticator.allowed_users = {'dogbreath'}
+c.Authenticator.allowed_users = {'acg34'}
 
 c.PAMAuthenticator.open_sessions = False
 
