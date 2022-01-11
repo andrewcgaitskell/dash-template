@@ -8,7 +8,7 @@ paste the following content:
         server_name yourdomain.com;  ####### change this
         proxy_buffering off;
         location / {
-                proxy_pass http://localhost:8866;
+                proxy_pass http://localhost:8050;
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -35,20 +35,7 @@ paste the following content:
 
     apt install python3-pip
 
-## Setup an example project
-
-
-## install the dependencies:
-
-    python3 -m pip install -r requirements.txt
-
-  
-## Shell Script to Run Voila for one dashboard
-
-
-## Shell Script to Run Voila for Folder of Dashboards
-
-## Create a new systemd service for running voila
+## Create a new systemd service for running notebook
 
 
 
