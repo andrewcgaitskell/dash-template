@@ -78,7 +78,8 @@ Memory
 
     sudo apt install certbot python3-certbot-nginx
 
-    sudo certbot --nginx -d andrewcgaitskell.com -d www.andrewcgaitskell.com - -d data.andrewcgaitskell.com
+    sudo certbot --nginx -d andrewcgaitskell.com -d www.andrewcgaitskell.com -d data.andrewcgaitskell.com -d dash.andrewcgaitskell.com -d dash-dev.andrewcgaitskell.com
+
 
     Requesting a certificate for andrewcgaitskell.com and 2 more domains
     Performing the following challenges:
