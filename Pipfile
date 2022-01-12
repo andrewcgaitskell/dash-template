@@ -70,6 +70,7 @@ Brotli = "==1.0.9"
 async_generator = ">=1.9"
 SQLAlchemy = ">=1.1"
 jupyterhub = "*"
+papermill = "*"
 
 [dev-packages]
 
