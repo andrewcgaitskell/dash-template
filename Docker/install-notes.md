@@ -15,6 +15,11 @@
       sudo systemctl enable docker.service
        sudo systemctl enable containerd.service
 
+# Create Jupyterhub Docker Image
+
+https://github.com/jupyterhub/jupyterhub
+
+
 # Create MYSQL Docker Image
 
 https://betterprogramming.pub/customize-your-mysql-database-in-docker-723ffd59d8fb
