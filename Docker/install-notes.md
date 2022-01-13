@@ -15,4 +15,8 @@
       sudo systemctl enable docker.service
        sudo systemctl enable containerd.service
 
+# Create MYSQL Docker Image
+
+https://betterprogramming.pub/customize-your-mysql-database-in-docker-723ffd59d8fb
+
 
