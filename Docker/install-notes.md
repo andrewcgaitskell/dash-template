@@ -24,4 +24,5 @@ https://github.com/jupyterhub/jupyterhub
 
 https://betterprogramming.pub/customize-your-mysql-database-in-docker-723ffd59d8fb
 
-
+mkdir -p ~/my-mysql/sql-scripts
+cd ~/my-mysql/sql-scripts
