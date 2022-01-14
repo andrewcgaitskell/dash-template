@@ -66,8 +66,7 @@ Successfully tagged my-mysql:latest
 
 And start your MySQL container from the image:
 
-$ docker run -d -p 3306:3306 --name my-mysql \
--e MYSQL_ROOT_PASSWORD=supersecret my-mysql
+$ docker run -d -p 3306:3306 --name my-mysql -e MYSQL_ROOT_PASSWORD=pythonuser my-mysql
 
 Now we can verify. We will exec inside the container:
 
